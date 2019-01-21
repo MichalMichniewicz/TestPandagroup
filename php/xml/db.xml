@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+         <db>
+          <dns><![CDATA[mysql]]></dns>
+          <host><![CDATA[localhost]]></host>
+          <username><![CDATA[jubel_panda]]></username>
+          <password><![CDATA[hAAqL2COW5xzs9hx!]]></password>
+          <dbname><![CDATA[jubel_panda]]></dbname>
+        </db>
+</config>

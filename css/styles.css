@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019-01-18, 22:23:41
+    Author     : Michał
+*/
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    color:#36454F;
+}
+/*heder*/
+.menu{
+    float: left;
+}
+.logged,
+.notloggedin{
+    float: right;
+}
+.logged a,
+.notloggedin a{
+    color:#36454F;
+}
+.heder,
+.content{
+    float: left;
+}
+.heder{
+    width: 100%;
+}
+.menuitem{
+    float: left;
+    margin: 5px;
+}
+
+.menu a{
+    color:#36454F;
+    padding: 10px;
+    text-align: center ; 
+    margin: 5px;
+    width: auto; 
+    height:auto;
+    font-size: 24px;
+}
+.reistery,
+.login{
+    float: left;
+    margin: 5px;
+}
+.logged{
+    text-align: center;
+}
+.logged a,
+.reistery,
+.login{
+    float: left;
+    width: 100%;
+}
+/*content*/
+.content{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.news .autor{
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.content .news{
+    float: left;
+    width: 100%;
+}
+.new {
+    float: left;
+    width: 100%;
+}
+.news .titel{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.news .autor a{
+    font-size: 16px;
+    color: #69b2e3;
+}
+.news .autor .active{
+    color: #C5E716;
+}
+.news .autor .noactive{
+    color: #E73B16;
+}
+.infopanel{
+    margin-bottom: 20px;
+}
+.content input{
+    width: 250px;
+    height: 25px;
+}
+.fname , .lname, .email, .gender, .password, .repeatPassword, .country{
+    margin: 10px;
+} 
+
+
+
